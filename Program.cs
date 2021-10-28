@@ -7,9 +7,9 @@ namespace LinkedListProgram
         static void Main(string[] args)
         {
             NodeOperations nodeop = new NodeOperations();
-            nodeop.AddNode(56);
-            nodeop.AddNode(30);
-            nodeop.AddNode(70);
+            nodeop.Append(56);
+            nodeop.Append(30);
+            nodeop.Append(70);
         }
     }
 }

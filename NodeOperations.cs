@@ -25,5 +25,9 @@ namespace LinkedListProgram
             }
             Console.WriteLine("Node inserted as : " + data);
         }
+        internal void Append(int d)
+        {
+            AddNode(d);
+        }
     }
 }
