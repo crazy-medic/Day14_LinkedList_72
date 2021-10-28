@@ -1,0 +1,14 @@
+C:\Users\vinee\source\repos\LinkedListProgram\bin\Debug\netcoreapp3.1\LinkedListProgram.exe
+C:\Users\vinee\source\repos\LinkedListProgram\bin\Debug\netcoreapp3.1\LinkedListProgram.deps.json
+C:\Users\vinee\source\repos\LinkedListProgram\bin\Debug\netcoreapp3.1\LinkedListProgram.runtimeconfig.json
+C:\Users\vinee\source\repos\LinkedListProgram\bin\Debug\netcoreapp3.1\LinkedListProgram.runtimeconfig.dev.json
+C:\Users\vinee\source\repos\LinkedListProgram\bin\Debug\netcoreapp3.1\LinkedListProgram.dll
+C:\Users\vinee\source\repos\LinkedListProgram\bin\Debug\netcoreapp3.1\LinkedListProgram.pdb
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.csproj.AssemblyReference.cache
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.AssemblyInfoInputs.cache
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.AssemblyInfo.cs
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.csproj.CoreCompileInputs.cache
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.dll
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.pdb
+C:\Users\vinee\source\repos\LinkedListProgram\obj\Debug\netcoreapp3.1\LinkedListProgram.genruntimeconfig.cache
