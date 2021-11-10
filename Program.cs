@@ -14,6 +14,7 @@ namespace LinkedListProgram
             nodeop.Display();
             //nodeop.DeleteFirst();
             nodeop.DeleteLast();
+            nodeop.SearchNode(30);
         }
     }
 }

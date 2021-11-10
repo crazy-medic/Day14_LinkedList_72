@@ -102,5 +102,20 @@ namespace LinkedListProgram
             Display();
             return head;
         }
+        internal Node SearchNode(int d)
+        {
+            while (this.head != null)
+            {
+                int position = 1;
+                if(this.head.data == d)
+                {
+                    Console.WriteLine();
+                    Console.WriteLine("The element has been found at list position " + position + " for element " + d);
+                    return this.head;
+                }
+                this.head = this.head.next;
+            }
+            return null;
+        }
     }
 }
