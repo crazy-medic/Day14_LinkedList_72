@@ -16,6 +16,9 @@ namespace LinkedListProgram
             //nodeop.DeleteLast();
             //nodeop.SearchNode(30);
             nodeop.InsertAfter(40,30);
+            Console.WriteLine("\nDeleted the node 40 ", nodeop.DeleteSearched(40));
+            //Console.WriteLine();
+            nodeop.Display();
         }
     }
 }

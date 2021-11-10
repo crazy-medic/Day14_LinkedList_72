@@ -132,9 +132,36 @@ namespace LinkedListProgram
                 }
                 temp0 = temp0.next;
             }
-            Console.WriteLine();
+            //Console.WriteLine();
             Display();
             return this.head;
+        }
+        internal Node DeleteSearched(int d)
+        {
+            // Store head node
+            Node temp = head, prev = null;
+
+            // If head node itself holds
+            // the key to be deleted
+            if (temp != null && temp.data == d)
+            {
+                // Changed head
+                head = temp.next;
+                return head;
+            }
+
+            // Search for the key to be
+            // deleted, keep track of the
+            // previous node as we need
+            // to change temp.next
+            while (temp != null && temp.data != d)
+            {
+                prev = temp;
+                temp = temp.next;
+            }
+            // Unlink the node from linked list
+            prev.next = temp.next;
+            return head;
         }
     }
 }
