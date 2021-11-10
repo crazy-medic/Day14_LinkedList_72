@@ -163,5 +163,37 @@ namespace LinkedListProgram
             prev.next = temp.next;
             return head;
         }
+        internal Node SortList()
+        {
+            Node current = head;
+            Node index = null;
+            Node temp = null;
+
+            if (head == null)
+            {
+                return null;
+            }
+            else
+            {
+                while (current != null)
+                {
+                    //Node index will point to node next to current  
+                    index = current.next;
+
+                    while (index != null)
+                    {
+                        //If current node's data is greater than index's node data, swap the data between them  
+                        if (current.data.CompareTo(index.data) > 0)
+                        {
+                            temp = current.data;
+                            current.data = index.data;
+                            index.data = temp;
+                        }
+                        index = index.next;
+                    }
+                    current = current.next;
+                }
+            }
+        }
     }
 }
