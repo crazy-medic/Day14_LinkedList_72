@@ -12,6 +12,7 @@ namespace LinkedListProgram
             nodeop.Append(70);
             nodeop.MidInsert(30);
             nodeop.Display();
+            nodeop.DeleteFirst();
         }
     }
 }

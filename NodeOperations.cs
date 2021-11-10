@@ -65,5 +65,20 @@ namespace LinkedListProgram
                 temp = temp.next;
             }
         }
+        internal Node DeleteFirst()
+        {
+            if (this.head == null)
+            {
+                return null;
+            }
+            Node temp = this.head;
+            Console.WriteLine();
+            Console.WriteLine("Deleted the head node : " + this.head.data);
+            this.head = this.head.next;
+            Console.WriteLine("The updated linked list is:");
+            Display();
+            return this.head;
+        }
+
     }
 }
