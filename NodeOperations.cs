@@ -106,16 +106,35 @@ namespace LinkedListProgram
         {
             while (this.head != null)
             {
-                int position = 1;
+                //int position = 1;
                 if(this.head.data == d)
                 {
-                    Console.WriteLine();
-                    Console.WriteLine("The element has been found at list position " + position + " for element " + d);
+                    //Console.WriteLine();
+                    //Console.WriteLine("The element has been found at list position " + position + " for element " + d);
                     return this.head;
                 }
                 this.head = this.head.next;
             }
             return null;
+        }
+        internal Node InsertAfter(int d, int e)
+        {
+            Node temp0 = this.head;
+            Node newNode = new Node(d);
+            while(temp0 != null)
+            {
+                if (temp0.data == e)
+                {
+                    Node temp1 = temp0.next;
+                    temp0.next = newNode;
+                    newNode.next = temp1;
+                    Console.WriteLine("\nInserted node " + newNode.data);
+                }
+                temp0 = temp0.next;
+            }
+            Console.WriteLine();
+            Display();
+            return this.head;
         }
     }
 }

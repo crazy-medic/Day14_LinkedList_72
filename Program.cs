@@ -13,8 +13,9 @@ namespace LinkedListProgram
             //nodeop.MidInsert(30);
             nodeop.Display();
             //nodeop.DeleteFirst();
-            nodeop.DeleteLast();
-            nodeop.SearchNode(30);
+            //nodeop.DeleteLast();
+            //nodeop.SearchNode(30);
+            nodeop.InsertAfter(40,30);
         }
     }
 }
