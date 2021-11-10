@@ -8,11 +8,12 @@ namespace LinkedListProgram
         {
             NodeOperations nodeop = new NodeOperations();
             nodeop.Append(56);
-            //nodeop.Append(30);
+            nodeop.Append(30);
             nodeop.Append(70);
-            nodeop.MidInsert(30);
+            //nodeop.MidInsert(30);
             nodeop.Display();
-            nodeop.DeleteFirst();
+            //nodeop.DeleteFirst();
+            nodeop.DeleteLast();
         }
     }
 }

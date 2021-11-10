@@ -79,6 +79,28 @@ namespace LinkedListProgram
             Display();
             return this.head;
         }
-
+        internal Node DeleteLast()
+        {
+            if (this.head == null)
+            {
+                return null;
+            }
+            if (this.head.next == null)
+            {
+                return null;
+            }
+            Node newnode = head;
+            while(newnode.next.next != null)
+            {
+                newnode = newnode.next;
+            }
+            Node temp = newnode.next;
+            newnode.next = null;
+            Console.WriteLine();
+            Console.WriteLine("Deleted last node " + temp.data);
+            Console.WriteLine("Updated list is");
+            Display();
+            return head;
+        }
     }
 }
